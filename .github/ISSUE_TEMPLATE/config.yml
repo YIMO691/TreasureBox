@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 工具使用与访问帮助
+    url: https://github.com/YIMO691/TreasureBox/blob/main/SUPPORT.md
+    about: 工具使用问题请前往对应项目；私有仓库访问问题请联系维护者。

@@ -1,0 +1,14 @@
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local temporary files and credentials
+*.tmp
+*.bak
+*.log
+.env
+.env.*
+!.env.example

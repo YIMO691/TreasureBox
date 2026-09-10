@@ -1,0 +1,26 @@
+name: 目录问题
+description: 反馈链接失效、介绍错误或分类建议。
+title: "[目录] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        工具安装、运行或功能问题请优先前往对应项目反馈。不要附上敏感信息。
+  - type: input
+    id: entry
+    attributes:
+      label: 涉及的工具或页面
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题说明
+      description: 说明当前信息哪里有问题，必要时附上涉及的链接。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议修改
+      description: 如知道正确内容或链接，请在这里补充。

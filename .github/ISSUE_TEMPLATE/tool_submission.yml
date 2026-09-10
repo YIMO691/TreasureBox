@@ -1,0 +1,31 @@
+name: 收录工具
+description: 推荐收录一个工作效率工具，或补充已有工具的入口。
+title: "[收录] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 工具名称
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub 仓库链接
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 用途与适用人员
+      description: 说明能帮助哪些同事完成什么工作，以及建议的分类。
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: 使用入口与当前状态
+      description: 提供使用说明或下载入口，并说明试用状态、平台和访问要求。
+    validations:
+      required: true
