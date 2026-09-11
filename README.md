@@ -20,6 +20,7 @@
 | --- | --- | --- |
 | 💻 [研发协作](#研发协作) | 按清楚的流程与 AI 协作，完成开发、验证和交付 | [Workflow-SOP](#workflow-sop) |
 | 📋 [策划工具](#策划工具) | 查询配置、检查改表差异、辅助修改 Excel | [配表助手](#ares-config-copilot) |
+| 📋 [策划工具](#策划工具) | 借助 AI 整理游戏需求与功能文档，保留待确认问题 | [游戏策划文档](#gfs-game-design-docs) · 🚧 实施中 / 未完成 |
 
 ## 研发协作
 
@@ -56,6 +57,24 @@
 - **辅助完成修改**：先查看修改预览，确认后备份、写入并复检。
 
 [**下载工具 →**](https://github.com/YIMO691/Ares-Config-Copilot/releases) · [使用指南](https://github.com/YIMO691/Ares-Config-Copilot/blob/main/docs/USER_GUIDE.md) · [项目仓库](https://github.com/YIMO691/Ares-Config-Copilot)
+
+### gfs-game-design-docs
+
+**游戏策划文档，通过 AI 协作将想法和已有资料整理为可讨论的功能文档。**
+
+围绕策划的日常表达整理需求草稿、修改摘要与关键问题，由策划确认玩法，各岗位依据共同的功能文档协作。
+
+> - 👥 **适用人员**：游戏策划，以及接手需求的程序、美术、测试
+> - 📖 **使用方式**：阅读项目指引，使用 Codex 配合仓库流程整理资料；私有仓库需要读取权限
+> - 🚧 **当前状态**：实施中 / 未完成
+
+- **整理需求资料**：从已有文档、草图或想法出发，形成可阅读的需求草稿。
+- **保留关键问题**：记录尚未确认的玩法与规则，由策划决定后继续完善。
+- **参考文档写法**：提供功能文档样例及按需使用的模板。
+
+项目仍在完善中，实例包含待确认项；真实岗位接手、游戏交付及持续提效尚未验证。
+
+[**查看项目 →**](https://github.com/YIMO691/gfs-game-design-docs) · [使用指引](https://github.com/YIMO691/gfs-game-design-docs/blob/main/START_HERE.md)
 
 ---
 
